@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+    body 
+        div Moteur de template <b>pug</b>   
+        table 
+            thead 
+                th Username 
+                th Firstname 
+                th Lastname 
+                th Date of birth 
+            tbody 
+                tr 
+                    td #{user.username}
+                    td #{user.firstName}
+                    td #{user.lastName}
+                    td #{user.dob}
